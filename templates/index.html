@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <p>Hello, index.html here!</p>
+    <p>Current year: {{current_year}}</p>
+
+    {% for city in cities %}
+    <p>{{city}}</p>
+    {% endfor %}
+
+    <link rel="stylesheet" href="/aboutme"
+{% endblock content %}
+
+
+{% block title %}
+    <title>Bilo kaj</title>
+{% endblock title %}
+
+
+
+
